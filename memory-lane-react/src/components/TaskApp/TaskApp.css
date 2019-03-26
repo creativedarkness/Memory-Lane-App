@@ -1,0 +1,13 @@
+.TaskApp {
+    height: 500px;
+    width: 600px;
+    background-color: #d3d3d3;
+    margin: auto;
+}
+
+.taskAppTitle {
+    font-size: 48px;
+    color: gray;
+    margin: auto;
+    text-align: center;
+}

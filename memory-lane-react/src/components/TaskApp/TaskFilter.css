@@ -1,0 +1,35 @@
+.taskFilter {
+    outline: 1px dotted red;
+    height: 75px;
+    width: 500px;
+    background-color: white;
+    color: gray;
+    margin: auto;
+    vertical-align: top;
+}
+
+.itemsLeft {
+    height: 25px;
+    width: 100px;
+    color: gray;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.filterList {
+    height: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.filterType {
+    background-color: antiquewhite;
+    border: 1px solid wheat;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+    padding: 10px;
+}

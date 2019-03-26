@@ -1,0 +1,12 @@
+.App {
+  /* outline: 1px dotted red; */
+  text-align: center;
+  padding: 10px;
+}
+.navList {
+  background-color: cadetblue;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  border: 3px solid black;
+}

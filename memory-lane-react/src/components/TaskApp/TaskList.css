@@ -1,0 +1,26 @@
+
+.tasklist {
+    height: auto;
+    width: 500px;
+    background-color: white;
+    color: black;
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+    margin: auto;
+}
+
+.cirIcon {
+    padding: 20px;
+    display: inline-block;
+    color: gray;
+}
+
+.completeIcon {
+    padding: 20px;
+    display: inline-block;
+    color: gray;
+}
+
+.taskItem {
+    display: inline-block;
+}
