@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import AddTask from './AddTask';
+// import AddTask from './AddTask';
 import TaskList from './TaskList';
 import TaskFilter from './TaskFilter';
 import "./TaskApp.css";
+import TaskForm from './TaskForm';
 
 class TaskApp extends Component {
     constructor(props) {
@@ -13,7 +14,14 @@ class TaskApp extends Component {
             view: "all",
             itemsLeft: 3
         }
-        this.activeClicked = this.activeClicked.bind(this);
+        // this.activeClicked = this.activeClicked.bind(this);
+    }
+
+    addTask = (newTask) => {
+        this.setState({
+            activeTasks:[...this.state.activeTasks, newTask]
+        })
+        console.log("Added Task");
     }
 
     activeClicked = (view) => {
@@ -55,7 +63,10 @@ class TaskApp extends Component {
         return (
             <div className="TaskApp">
                 <h1 className="taskAppTitle">todos</h1>
-                <AddTask />
+                {/* <AddTask /> */}
+                <TaskForm
+                    addTask={this.addTask}
+                />
                 <TaskList
                     activeTasks={this.state.activeTasks}
                     compltedTasks={this.state.completedTasks}

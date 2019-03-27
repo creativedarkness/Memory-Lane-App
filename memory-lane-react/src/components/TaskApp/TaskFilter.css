@@ -1,7 +1,6 @@
 .taskFilter {
-    outline: 1px dotted red;
     height: 75px;
-    width: 500px;
+    width: 400px;
     background-color: white;
     color: gray;
     margin: auto;
